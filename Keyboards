@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Analog Specialist</title>
+	<style type="text/css">
+		body{
+			background-color: #D3D3D3;
+			font-family: 'Courier Sans',courier,serif;
+		}
+		#box{
+			text-align: center;
+			border: double; 
+			background-color: white;
+			width: 800px;
+			margin: 20px auto;
+			padding: 30px 80px;
+
+		}
+		.nav{
+			list-style-type: none;
+			border-top: 3px solid black;
+			border-bottom: double black 3px;	
+
+		}
+		.nav li{
+			display: inline-block;
+			font-size: 15px;
+			margin: 25px;
+
+		}
+
+	</style>
+</head>
+<body>
+	<div id="box">
+	<img src="logo.gif">
+	<ul class="nav">
+		<li>HOME</li>
+		<li>FOR SALE</li>
+		<li>REPAIRS</li>
+		<li>ABOUT</li>
+		<li>CONTACT</li>
+	</ul>
+	<img src="keys.jpg">
+	<p>We specialize in the sale and repair of classic keyboards, in particular the Fender Phodes, Wurlitzer EP200, and Hohner Clavinet</p>
+</div>
+
+</body>
+</html>
